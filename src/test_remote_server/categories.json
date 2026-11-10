@@ -1,0 +1,17 @@
+{
+  "categories": {
+    "food": ["groceries", "eating out", "takeaway", "coffee", "snacks"],
+    "transport": ["train", "bus", "taxi", "fuel", "parking"],
+    "housing": ["rent", "repairs", "furniture", "household supplies"],
+    "bills": ["electricity", "gas", "water", "council tax", "internet", "phone"],
+    "shopping": ["clothes", "electronics", "home", "other"],
+    "health": ["pharmacy", "dentist", "optician", "gym"],
+    "entertainment": ["cinema", "events", "games", "hobbies"],
+    "subscriptions": ["streaming", "software", "memberships"],
+    "education": ["courses", "books", "exams"],
+    "travel": ["flights", "accommodation", "activities"],
+    "personal care": ["haircut", "toiletries"],
+    "gifts and charity": ["gifts", "donations"],
+    "other": ["miscellaneous"]
+  }
+}
