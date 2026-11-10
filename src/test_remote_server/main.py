@@ -4,7 +4,8 @@ import math
 import os
 import sqlite3
 
-DB_PATH = os.path.join(os.path.dirname(__file__), "expenses.db")
+DEFAULT_DB_PATH = os.path.join(os.path.dirname(__file__), "expenses.db")
+DB_PATH = os.environ.get("EXPENSES_DB_PATH", DEFAULT_DB_PATH)
 CATEGORIES_PATH = os.path.join(os.path.dirname(__file__), "categories.json")
 
 mcp = FastMCP("ExpenseTracker")
