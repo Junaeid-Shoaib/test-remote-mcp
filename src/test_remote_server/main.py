@@ -1,3 +1,4 @@
+import sys
 from fastmcp import FastMCP
 from datetime import datetime
 import math
@@ -6,6 +7,7 @@ import sqlite3
 
 DEFAULT_DB_PATH = os.path.join(os.path.dirname(__file__), "expenses.db")
 DB_PATH = os.environ.get("EXPENSES_DB_PATH", DEFAULT_DB_PATH)
+print(f"Using database at: {DB_PATH}", file=sys.stderr)
 CATEGORIES_PATH = os.path.join(os.path.dirname(__file__), "categories.json")
 
 mcp = FastMCP("ExpenseTracker")
